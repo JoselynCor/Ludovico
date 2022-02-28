@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5VC-ez-UGD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ludovico" translatesAutoresizingMaskIntoConstraints="NO" id="T2d-Nv-bjZ">
+                                <rect key="frame" x="57" y="134" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="LuE-VJ-aVa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jimenez Linares Suemy Ximena" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0t-R1-YKb">
+                                <rect key="frame" x="20" y="800" width="374" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.035614349889673227" green="0.037527373342802983" blue="0.036110619660106501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ramirez Cordero Joselyn" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R99-Lc-mtx">
+                                <rect key="frame" x="20" y="826" width="374" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.035614349890000001" green="0.037527373340000003" blue="0.036110619660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvi-EB-KCQ">
+                                <rect key="frame" x="20" y="672" width="374" height="28"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="LUDOVICO">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="24" name="LucidaGrande"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dwf-gS-HFi"/>
+                        <color key="backgroundColor" red="0.57544012504070674" green="0.63928153109849939" blue="0.94323502105920498" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yvi-EB-KCQ" firstAttribute="leading" secondItem="dwf-gS-HFi" secondAttribute="leading" constant="20" id="8Ly-Wx-2C6"/>
+                            <constraint firstItem="D0t-R1-YKb" firstAttribute="leading" secondItem="dwf-gS-HFi" secondAttribute="leading" constant="20" id="9Is-Cd-fLp"/>
+                            <constraint firstItem="T2d-Nv-bjZ" firstAttribute="leading" secondItem="dwf-gS-HFi" secondAttribute="leading" constant="57" id="EAu-a5-HcX"/>
+                            <constraint firstItem="dwf-gS-HFi" firstAttribute="trailing" secondItem="T2d-Nv-bjZ" secondAttribute="trailing" constant="57" id="Mnv-5p-saX"/>
+                            <constraint firstItem="T2d-Nv-bjZ" firstAttribute="centerX" secondItem="5VC-ez-UGD" secondAttribute="centerX" id="Vtc-o0-CHV"/>
+                            <constraint firstItem="T2d-Nv-bjZ" firstAttribute="top" secondItem="dwf-gS-HFi" secondAttribute="top" constant="90" id="Zve-UQ-Qun"/>
+                            <constraint firstItem="dwf-gS-HFi" firstAttribute="trailing" secondItem="D0t-R1-YKb" secondAttribute="trailing" constant="20" id="aai-Rt-JGi"/>
+                            <constraint firstItem="dwf-gS-HFi" firstAttribute="trailing" secondItem="R99-Lc-mtx" secondAttribute="trailing" constant="20" id="hw8-K2-Bdb"/>
+                            <constraint firstItem="dwf-gS-HFi" firstAttribute="bottom" secondItem="R99-Lc-mtx" secondAttribute="bottom" constant="20" id="l1O-cN-O1h"/>
+                            <constraint firstItem="R99-Lc-mtx" firstAttribute="top" secondItem="D0t-R1-YKb" secondAttribute="bottom" constant="10" id="mxh-x9-BrK"/>
+                            <constraint firstItem="dwf-gS-HFi" firstAttribute="trailing" secondItem="Yvi-EB-KCQ" secondAttribute="trailing" constant="20" id="ogj-p6-BVx"/>
+                            <constraint firstItem="D0t-R1-YKb" firstAttribute="top" secondItem="Yvi-EB-KCQ" secondAttribute="bottom" constant="100" id="r2a-pZ-uMX"/>
+                            <constraint firstItem="R99-Lc-mtx" firstAttribute="leading" secondItem="dwf-gS-HFi" secondAttribute="leading" constant="20" id="u3u-le-LyE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ludovico" width="773" height="1256"/>
+    </resources>
+</document>
